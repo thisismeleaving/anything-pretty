@@ -15,3 +15,7 @@ pretty cat ~/some/file.yml
 ```bash
 pretty aws iam list-users --output=text
 ```
+
+```bash
+pretty tail -f /var/log/mystuff.log
+```
