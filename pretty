@@ -1,6 +1,6 @@
 #!/bin/bash
 
 result="$@"
-echo ":running: $result" | python pretty_print.py
+echo ":running: $result" | python ~/anything-pretty/pretty_print.py
 echo " "
-$result | python pretty_print.py
+$result | python ~/anything-pretty/pretty_print.py
